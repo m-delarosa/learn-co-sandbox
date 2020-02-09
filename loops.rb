@@ -57,13 +57,19 @@
 # end
 
 #Combining Arrays, Loops and Block Parameters
-counter = 0
+# counter = 0
+# array = [1,2,3,4,5]
+
+# while array[counter] do 
+#   puts array[counter]
+#   counter += 1
+# end
+
+#If we want to write the above without using an outside counter variable:
 array = [1,2,3,4,5]
+length = array.length
 
-while array[counter] do 
-  puts array[counter]
-  counter += 1
+length.times do | index |
+  puts array[index]
 end
-
-
 
